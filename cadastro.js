@@ -24,8 +24,8 @@ botaoParaGerarNumeros.addEventListener("click", (evento) => {
     resultado.innerHTML = "";
     for (i = 0; i < 100; i++) {
       let numeroImpar = arrayDeNumeros[i];
-      if (numeroImpar % 2 !== 0) {
-        console.log(numeroImpar);
+      if ([i] % 2 !== 0) {
+        // console.log(numeroImpar);
         resultado.innerHTML += `<table><thead><tr><th>${[
           i,
         ]}</th></tr></thead><thead><tr><th>${numeroImpar}</th></tr></thead></table>`;
