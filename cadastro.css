@@ -1,0 +1,56 @@
+body {
+  background-color: #78adf2;
+  color: #fff;
+  text-align: center;
+}
+
+header {
+  padding: 2rem 0 0.1rem 0;
+}
+
+h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+main {
+  padding: 1rem;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+button {
+  background-color: #78adf2;
+  color: #fff;
+  border: none;
+  border-radius: 1rem;
+  margin: 1rem;
+  text-transform: uppercase;
+  padding: 0.3rem 0.5rem;
+  transition: all 1.4s;
+}
+
+button:hover {
+  background-color: #ffffff;
+  color: #000;
+}
+
+.resultado {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+ 
+}
+
+.resultado table {
+  margin: .2rem;
+  display: flex;
+  border: 0.1rem solid #000;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.resultado table thead {
+  padding: .5rem;
+}
