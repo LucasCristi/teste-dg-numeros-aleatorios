@@ -18,6 +18,14 @@ main {
   text-align: center;
   justify-content: center;
   display: flex;
+  flex-direction: column;
+}
+
+.ordem-sorteada{
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  width: 30%;
 }
 
 button {
@@ -39,8 +47,8 @@ button:hover {
 .resultado {
   display: flex;
   flex-direction: column;
+  margin: auto;
   width: 30%;
- 
 }
 
 .resultado table {

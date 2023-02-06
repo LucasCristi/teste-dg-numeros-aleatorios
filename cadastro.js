@@ -32,15 +32,11 @@ botaoParaGerarNumeros.addEventListener("click", (evento) => {
       }
     }
   });
-//   numeroImpar.splice(0, 100);
+
 botaoParaZerarNumeros.addEventListener("click", evento => {
     resultado.innerHTML = "";
     arrayDeNumeros.splice(0, 100);
-    console.log(arrayDeNumeros)
 })
 });
 
-
-console.log(arrayDeNumeros);
-console.log(arrayDeNumeros);
 
